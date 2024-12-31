@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ababab;
+}
+
+header {
+    background-color: #272727; /* Warna gelap */
+    color: white;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Vertikal center */
+    justify-content: center; /* Horizontal center */
+}
+
+.logo-container {
+    margin-right: 20px; /* Jarak antara logo dan nama */
+}
+
+.logo {
+    width: 250px; /* Ukuran logo */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+
+.font11 {
+    font-size: 40px; /* Ukuran font untuk nama */
+    color: #16588E
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #272727; /* Warna latar belakang kartu proyek */
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px; /* Menambahkan border-radius untuk sudut melengkung */
+}
+
+.project-image {
+    width: 100%; /* Menyesuaikan lebar gambar */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+
+/* Gaya untuk tombol proyek */
+.project-button {
+    display: inline-block;
+    background-color: #383838; /* Warna abu-abu */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px; /* Sudut melengkung */
+    margin-top: 10px; /* Jarak atas */
+}
+
+.project-button:hover {
+    background-color: #696969; /* Warna abu-abu lebih gelap saat hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #16588E; /* Biru gelap */
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* CSS untuk ikon sosial media */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Mengatur agar ikon berada di tengah */
+    margin-top: 20px; /* Jarak atas dari proyek */
+}
+
+.social-icon {
+    width: 40px; /* Ukuran ikon */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin: 0 10px; /* Jarak antar ikon */
+}
